@@ -3,6 +3,8 @@ list列表的定义
 """
 
 # 定义一个list列表
+my_list = []
+my_list = list()
 my_list = ["张三", "李四", "王五"]
 # print(my_list)
 # print(type(my_list))
