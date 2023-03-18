@@ -5,19 +5,19 @@
 # 对list进行切片
 l = [1, 2, 3, 4, 5, 6]
 result_1 = l[1:4]
-print(result_1)
+print(result_1)  # [2, 3, 4]
 
 # 对tuple进行切片
 t = (0, 1, 2, 3, 4, 5, 6)
 result2 = t[:]
-print(result2)
+print(result2)  # (0, 1, 2, 3, 4, 5, 6)
 
 # 对String进行切片,步长2
 s = "0123456"
 result3 = s[::2]
-print(result3)
+print(result3)  # 0246
 
 # 对String进行切片,步长-1
 s = "0123456"
 result4 = s[::-1]
-print(result4)
+print(result4)  # 6543210
