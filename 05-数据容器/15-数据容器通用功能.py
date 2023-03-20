@@ -57,3 +57,22 @@ print(f"字符串转集合结果为:{set(my_str)}")
 print(f"集合转集合结果为:{set(my_set)}")
 print(f"字典转集合结果为:{set(my_dict)}")
 print("--------------------------------------------------")
+
+# sorted排序  放入list列表中
+my_list = [3, 1, 5, 4, 2]
+my_tuple = (3, 1, 5, 4, 2)
+my_str = "bedcfga"
+my_set = {3, 1, 5, 4, 2}
+my_dict = {"value3": 1, "value1": 2, "value5": 3, "value4": 4, "value2": 5}
+
+print(f"列表的排序结果是:{sorted(my_list)}")
+print(f"元组的排序结果是:{sorted(my_list)}")
+print(f"字符串的排序结果是:{sorted(my_list)}")
+print(f"集合的排序结果是:{sorted(my_list)}")
+print(f"字典的排序结果是:{sorted(my_list)}")
+
+print(f"列表的反向排序结果是:{sorted(my_list, reverse=True)}")
+print(f"元组的反向排序结果是:{sorted(my_list, reverse=True)}")
+print(f"字符串的反向排序结果是:{sorted(my_list, reverse=True)}")
+print(f"集合的反向排序结果是:{sorted(my_list, reverse=True)}")
+print(f"字典的反向排序结果是:{sorted(my_list, reverse=True)}")
