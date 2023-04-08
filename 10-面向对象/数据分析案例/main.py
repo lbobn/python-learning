@@ -8,8 +8,8 @@ from pyecharts.charts import Bar
 from pyecharts.options import *
 from pyecharts.globals import ThemeType
 
-text_file_reader = TextFileReader("")
-json_file_reader = JSONFileReader("")
+text_file_reader = TextFileReader("D:\\Test\\python\\python-learning\\10-面向对象\\数据分析案例\\2011年1月销售数据.txt")
+json_file_reader = JSONFileReader("D:\\Test\\python\\python-learning\\10-面向对象\\数据分析案例\\2011年2月销售数据JSON.txt")
 
 jan_data: list[Record] = text_file_reader.read_data()
 feb_data: list[Record] = json_file_reader.read_data()

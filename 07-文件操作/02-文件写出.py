@@ -7,6 +7,7 @@
 # 打开已存在的文件时会清空原有内容再写
 t = open("writeTest.txt", "w", encoding="UTF-8")
 t.write("Hello World!!!")
+t.write("你好")
 
 t.flush()
 
