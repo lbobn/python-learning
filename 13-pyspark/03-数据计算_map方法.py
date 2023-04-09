@@ -1,5 +1,7 @@
 """
-map
+map算子
+接收处理函数,可用Lambda表达式快速编写
+对RDD内的元素逐个处理,返回一个新RDD
 """
 
 from pyspark import SparkConf, SparkContext
