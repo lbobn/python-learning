@@ -8,7 +8,7 @@ socket_server = socket.socket()
 
 socket_server.bind(("localhost", 8888))
 
-socket_server.listen(1)
+socket_server.listen(1)  # 允许一个客户端连接
 
 conn, address = socket_server.accept()
 
