@@ -7,7 +7,7 @@ import re
 
 # 匹配账号,字母加数字,6-12位
 username1 = "1234567"
-username2 = "acjbhca"
+username2 = "256ghg"
 username3 = "adf"
 
 r = r"[a-zA-Z0-9]{6,12}"  # r标记表示字符串内转义字符无效
