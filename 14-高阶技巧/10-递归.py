@@ -7,9 +7,9 @@ import os
 
 
 def test_os():
-    print(os.listdir("D:\\Test\\python\\python-learning\\my_package"))  # 列出路径下的内容
-    print(os.path.isdir("D:\\Test\\python\\python-learning\\my_package"))  # 判断指定路径是不是文件夹
-    print(os.path.exists("D:\\Test\\python\\python-learning\\my_package"))  # 判断指定路径是否存在
+    print(os.listdir("/08-异常_模块_包/my_package"))  # 列出路径下的内容
+    print(os.path.isdir("/08-异常_模块_包/my_package"))  # 判断指定路径是不是文件夹
+    print(os.path.exists("/08-异常_模块_包/my_package"))  # 判断指定路径是否存在
 
 
 def get_file_recursion_from_dir(path):
@@ -38,4 +38,4 @@ def get_file_recursion_from_dir(path):
 
 if __name__ == '__main__':
     # test_os()
-    print(get_file_recursion_from_dir("D:\\Test\\python\\python-learning\\my_package"))
+    print(get_file_recursion_from_dir("/08-异常_模块_包/my_package"))

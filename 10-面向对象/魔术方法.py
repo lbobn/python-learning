@@ -15,7 +15,7 @@ class Student:
     def __lt__(self, other):
         return self.age < other.age
 
-    # __lt__   小于等于或大于等于的比较
+    # __le__   小于等于或大于等于的比较
     def __le__(self, other):
         return self.age <= other.age
 

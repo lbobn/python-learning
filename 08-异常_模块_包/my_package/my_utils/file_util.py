@@ -36,5 +36,5 @@ def append_to_file(file_name, data):
 
 
 if __name__ == '__main__':
-    print_file_info("D:\\Test\\python\\python-learning\\07-文件操作\\test.txt")
-    append_to_file("D:\\Test\\python\\python-learning\\07-文件操作\\test.txt", "nihao")
+    print_file_info("/07-文件操作/test.txt")
+    append_to_file("/07-文件操作/test.txt", "nihao")
