@@ -1,10 +1,10 @@
 from lxml import etree
 
 # XPath解析
-tree = etree.parse('XPath解析示例.html')
+tree = etree.parse('html解析示例.html')
 
 # XPath解析
-tree = etree.parse('XPath解析示例.html')
+tree = etree.parse('html解析示例.html')
 # //子孙节点    /子节点
 li_list = tree.xpath('//ul/li')
 # 标签内容
