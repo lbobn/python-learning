@@ -1,7 +1,7 @@
 from selenium import webdriver
 from time import sleep
 
-path = 'chromedriver.exe'
+# path = 'chromedriver.exe'
 browser = webdriver.Chrome()
 
 url = 'https://www.baidu.com/'

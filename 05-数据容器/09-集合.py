@@ -40,12 +40,12 @@ print(set4)  # set()
 # 在集合2中没有的集合1的元素
 set5 = {1, 2, 3}
 set6 = {1, 5, 6}
-print(f"取出{set5}和{set6}的差集为{set5.difference(set6)}")
+print(f"取出{set5}和{set6}的差集为{set5.difference(set6)}")  # 取出{1, 2, 3}和{1, 5, 6}的差集为{2, 3}
 
 # 消除两个集合的差集
 set7 = {1, 2, 3}
 set8 = {1, 5, 6}
-set7.difference_update(set8)
+update = set7.difference_update(set8)
 print(f"消除{set5}和{set6}的差集后,集合1为{set7}")
 
 # 2个集合合并为一个  原集合不变
