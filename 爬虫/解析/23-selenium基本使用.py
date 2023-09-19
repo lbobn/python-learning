@@ -10,7 +10,7 @@ browser.get(url)
 
 # 根据id来找对象
 button = browser.find_element_by_id('su')
-# print(button)
+print(button)
 
 # 根据标签属性找对象
 input = browser.find_element_by_name('wd')
@@ -30,4 +30,4 @@ button1 = browser.find_element_by_css_selector('#su')
 
 # 获取链接对象
 links = browser.find_element_by_link_text('图片')
-print(links)
+# print(links)
